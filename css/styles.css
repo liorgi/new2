@@ -1,0 +1,181 @@
+/***************** tags *****************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 50px;
+  width: 400px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5.265rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  margin-top: 0;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 200%;
+}
+
+h3, a {
+  font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border-style: dotted;
+  width: 100px;
+  border-width: 10px 0 0 0;
+  color: #EAF6F6;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+/***************** classes *****************/
+.topContainer {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  /*height:200px;
+  width: 200px;*/
+  /*background-color: #ff847c;*/
+  padding-top: 20px;
+}
+
+.yoda {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: solid 2px #99b898;
+}
+
+.mountain-pic {
+  height: 100px;
+  border-radius: 100%;
+  border: solid 2px #99b898;
+  float: left;
+  margin-right: 20px;
+}
+
+.camp-pic {
+  height: 100px;
+  border-radius: 100%;
+  border: solid 2px #99b898;
+  float: right;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.profile {
+  width: 400px;
+  margin: 0 auto 0 auto;
+}
+
+.bottom-container {
+  /*height:200px;
+  width: 200px;*/
+  background-color: #e84a5f;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-text {
+  /*text-align: left;*/
+  /*clear:right;*/
+}
+
+.contact-h3 {
+  margin-top: 0;
+}
+
+.contact-h2 {
+  margin-bottom: 0;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  padding: 20px 0 20px 0;
+}
+
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 2px;
+  line-height: 2px;
+  color: #FFFFFF;
+  width: 129px;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #3070B9;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #0059A0 1px;
+  background: #C9CED3;
+  background-image: -webkit-linear-gradient(top, #C9CED3, #1E62D0);
+  background-image: -moz-linear-gradient(top, #C9CED3, #1E62D0);
+  background-image: -ms-linear-gradient(top, #C9CED3, #1E62D0);
+  background-image: -o-linear-gradient(top, #C9CED3, #1E62D0);
+  background-image: linear-gradient(to bottom, #C9CED3, #1E62D0);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.footer-link {
+  padding: 0 5px 0 5px;
+  color: #11999E;
+  font-weight:bold;
+  font-size:20px;
+  text-decoration:none;
+}
+
+.p-name {
+  color: #EAF6F6;
+}
